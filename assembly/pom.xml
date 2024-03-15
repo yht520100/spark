@@ -292,6 +292,21 @@
         <project.version.short>3.2</project.version.short>
       </properties>
     </profile>
+    <profile>
+      <id>tidb</id>
+      <dependencies>
+        <dependency>
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+          <version>8.0.29</version>
+        </dependency>
+        <dependency>
+          <groupId>com.pingcap.tispark</groupId>
+          <artifactId>tispark-assembly-3.2_2.12</artifactId>
+          <version>3.1.5</version>
+        </dependency>
+      </dependencies>
+    </profile>
   </profiles>
 
 </project>
